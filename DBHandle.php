@@ -8,7 +8,7 @@ class CounponsDBConfig
     static $server_name = "localhost";
     static $db_name = "CouponsDB";
     static $db_username = "root";
-    static $db_password = "221222";   
+    static $db_password = "*****";
 }
 
 interface ICouponsDAO
