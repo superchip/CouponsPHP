@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<coupons>
+  <coupon>
+    <id>13</id>
+    <name>coup</name>
+    <categoryid>2</categoryid>
+    <businessid>3</businessid>
+    <description>none</description>
+    <imagefilename>MV5BNjE0Mjc5Nzg4OV5BMl5BanBnXkFtZTcwMzk3Njg0Mw@@._V1._SX266_SY400_.jpg</imagefilename>
+  </coupon>
+  <coupon>
+    <id>12</id>
+    <name>ynot</name>
+    <categoryid>1</categoryid>
+    <businessid>2</businessid>
+    <description>none</description>
+    <imagefilename>rondo.gif</imagefilename>
+  </coupon>
+  <coupon>
+    <id>11</id>
+    <name>test</name>
+    <categoryid>1</categoryid>
+    <businessid>1</businessid>
+    <description>none</description>
+    <imagefilename>arik.gif</imagefilename>
+  </coupon>
+</coupons>
