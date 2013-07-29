@@ -11,7 +11,63 @@ namespace Entities
         private $zip;
         private $telephone;
         private $latitude;
-        private $longtitude;      
+        private $longtitude;
+
+
+        function __construct($idVal = 0,$nameVal, $streetVal, $numberVal, $cityVal, $zipVal, $telephoneVal, $latitudeVal, $longtitudeVal)
+        {
+            $this->id = $idVal;
+            $this->name = $nameVal;
+            $this->street = $streetVal;
+            $this->number = $numberVal;
+            $this->city = $cityVal;
+            $this->zip = $zipVal;
+            $this->telephone = $telephoneVal;
+            $this->latitude = $latitudeVal;
+            $this->longtitude = $longtitudeVal;
+        }
+
+        public function getName()
+        {
+            return $this->name;
+        }
+
+        public function getStreet()
+        {
+            return $this->street;
+        }
+
+        public function getNumber()
+        {
+            return $this->number;
+        }
+
+        public function getCity()
+        {
+            return $this->city;
+        }
+
+        public function getZip()
+        {
+            return $this->zip;
+        }
+
+        public function getTelephone()
+        {
+            return $this->telephone;
+        }
+
+        public function getLatitude()
+        {
+            return $this->latitude;
+        }
+
+        public function getLongtitude()
+        {
+            return $this->longtitude;
+        }
+
+
     }
     
     class Coupon
