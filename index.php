@@ -65,37 +65,56 @@ if(!empty($_POST))
 //web site request was without post - show the form
 else
 {
-    echo '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+    $dao = new CouponsDAO();
+    $businesses = $dao->getBusinesses();
+
+    foreach($businesses as $businessInfo)
+    {
+        $busSelection .= "<option value={$businessInfo->getID()}>{$businessInfo->getName()}</option>";
+    }
+
+    $categories = $dao->getCategories();
+
+    foreach($categories as $categoryInfo)
+    {
+        $categoriesSelection .= "<option value={$categoryInfo->getID()}>{$categoryInfo->getName()}</option>";
+    }
+
+    echo '<!DOCTYPE html>
     <html>
     <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" href="form_design.css" type="text/css" media="all" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/signin.css" rel="stylesheet">
     <title>Insert Coupons Site</title>
     </head>
     <body>
-    <form class="form" action="index.php" method="post" enctype="multipart/form-data">
-      <label for="coupon_name">Name:</label><br />
-      <input type="text" name="coupon_name"><br />
+    <div class="container">
+    <form class="form-signin" action="index.php" method="post" enctype="multipart/form-data">
+      <input type="text" name="coupon_name" class="input-block-level" placeholder="Name" autofocus><br />
       <label for="business_id">Business Name:</label>
-       <div class="styled-select"> 
-        <select name="business_id"></p>
-          <option value="1">Moses</option>
-          <option value="2">Wolfnights</option>
-          <option value="3">Agadir</option>
+      <div class="styled-select">
+        <select class="selectpicker" name="business_id">'
+        .$busSelection.'
         </select>
-        </div>
-      <label>Business Catagory:</label>
+      </div>
+       <label>Coupon Catagory:</label>
        <div class="styled-select">
-         <select name=coupon_catagory_id>
-          <option value="1">Food</option>
-          <option value="2">Clothing</option>
-          <option value="3">Retail</option>
+         <select class="selectpicker" name=coupon_catagory_id>'
+        .$categoriesSelection.'
         </select>
        </div>
         <label for="coupon_image_upload">Coupon Image:</label><br />
         <input type="file" name="coupon_image_upload" value=""><br />
-        <p class="submit"><input type="submit" name="Submit" value="submit"></p>
+        <p class="submit"><input type="submit" name="Submit" value="submit" class="btn btn-large btn-primary btn-block"></p>
     </form>
+    </div>
+        <!-- JavaScript plugins (requires jQuery) -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
     </body>
     </html>';
 }

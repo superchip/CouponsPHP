@@ -27,6 +27,11 @@ namespace Entities
             $this->longtitude = $longtitudeVal;
         }
 
+        public function getID()
+        {
+            return $this->id;
+        }
+
         public function getName()
         {
             return $this->name;
@@ -68,6 +73,28 @@ namespace Entities
         }
 
 
+    }
+
+    class Category
+    {
+        private $id;
+        private $name;
+
+        function __construct($idVal,$nameVal)
+        {
+            $this->id = $idVal;
+            $this->name = $nameVal;
+        }
+
+        public function getID()
+        {
+            return $this->id;
+        }
+
+        public function getName()
+        {
+            return $this->name;
+        }
     }
     
     class Coupon

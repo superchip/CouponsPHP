@@ -103,6 +103,18 @@ class CouponsDAO implements ICouponsDAO
         
     }
 
+    function getCategories()
+    {
+        $result = $this->connection->query("SELECT * FROM categories");
+        $categoriesArray = array();
+        while(list($id, $name) = $result->fetch_row())
+        {
+            array_push($categoriesArray,new \Entities\Category($id, $name));
+        }
+
+        return $categoriesArray;
+    }
+
     function getBusinessInfo($businessID)
     {
         $result = $this->connection->query("SELECT * FROM businesses WHERE id=".$businessID);
