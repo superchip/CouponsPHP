@@ -19,7 +19,7 @@ if($request_method == 'get')
         catch(Exception $e)
         {
             //empty array
-            $couponsArray = array();
+            echo  "no coupons were found with provided id";
         }
         
     }

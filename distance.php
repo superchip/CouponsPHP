@@ -14,16 +14,16 @@ use Entities\Business;
 class LocationData
 {
     private static $instance = null;
-    private $userLatitude;
-    private $userLongtitude;
+    private static $userLatitude;
+    private static $userLongtitude;
 
     public function setLatitude($latitudeVal)
     {
-        $this->userLatitude = $latitudeVal;
+        LocationData::$userLatitude = $latitudeVal;
     }
     public function setLongtitude($longtitudeVal)
     {
-        $this->userLongtitude = $longtitudeVal;
+        LocationData::$userLongtitude = $longtitudeVal;
     }
 
     public static function Instance()
@@ -42,11 +42,11 @@ class LocationData
 
     public function getLatitude()
     {
-        return $this->userLatitude;
+        return LocationData::$userLatitude;
     }
     public function getLongtitude()
     {
-        return $this->userLongtitude;
+        return LocationData::$userLongtitude;
     }
 
     public function getNearestBusiness()
@@ -58,7 +58,10 @@ class LocationData
         foreach($businessesArray as $businessInfo)
         {
             $distance =
-                sqrt(pow($businessInfo->getLatitude() - $this->userLatitude,2) + pow($businessInfo->getLongtitude() - $this->userLongtitude,2));
+                sqrt(pow($businessInfo->getLatitude() - LocationData::$userLatitude,2) + pow($businessInfo->getLongtitude() - LocationData::$userLongtitude,2));
+
+
+
             if($distance < $minDistance)
             {
                 $minDistance = $distance;

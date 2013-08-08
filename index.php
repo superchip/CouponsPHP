@@ -12,9 +12,10 @@ if(!empty($_POST))
     $couponName = $_POST['coupon_name'];
     $businessID = $_POST['business_id'];
     $couponCatagoryID = $_POST['coupon_catagory_id'];
+    $couponDescription = $_POST['description'];
     $couponImage = $_FILES['coupon_image_upload']['name'];
     
-    $couponObj = new Coupon($couponCatagoryID, $businessID, $couponName, $couponImage);
+    $couponObj = new Coupon($couponCatagoryID, $businessID, $couponName, $couponImage,null,$couponDescription);
     
     //if one of the var is empty output proper error
     if(empty($couponName) || empty($couponImage))
@@ -92,6 +93,10 @@ else
     </head>
     <body>
     <div class="container">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">Insert Coupon</h3>
+        </div>
     <form class="form-signin" action="index.php" method="post" enctype="multipart/form-data">
       <input type="text" name="coupon_name" class="input-block-level" placeholder="Name" autofocus><br />
       <label for="business_id">Business Name:</label>
@@ -106,10 +111,15 @@ else
         .$categoriesSelection.'
         </select>
        </div>
+       <br />
+       <div class="input-group">
+          <textarea name="description" class="form-control" placeholder="Description"></textarea>
+       </div>
         <label for="coupon_image_upload">Coupon Image:</label><br />
         <input type="file" name="coupon_image_upload" value=""><br />
         <p class="submit"><input type="submit" name="Submit" value="submit" class="btn btn-large btn-primary btn-block"></p>
     </form>
+    </div>
     </div>
         <!-- JavaScript plugins (requires jQuery) -->
     <script src="http://code.jquery.com/jquery.js"></script>

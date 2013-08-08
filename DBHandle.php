@@ -98,6 +98,18 @@ class CouponsDAO implements ICouponsDAO
         return $couponsArray;
     }
 
+    function getBusinessCoupons($businessID)
+    {
+        $result = $this->connection->query("SELECT id,name,category_id,business_id,description,imagefilename FROM coupons where business_id = {$businessID}");
+        $couponsArray = array();
+        while(list($id,$name,$category_id,$business_id,$description,$imagefilename) = $result->fetch_row())
+        {
+            array_push($couponsArray,new Coupon($category_id, $business_id, $name, $imagefilename,$id,$description));
+        }
+
+        return $couponsArray;
+    }
+
     function updateCoupon(Coupon $ob)
     {
         
@@ -144,6 +156,11 @@ class CouponsDAO implements ICouponsDAO
         }
 
         return $businessesArray;
+    }
+
+    function deleteCoupon($couponID)
+    {
+       $this->connection->query("DELETE FROM coupons WHERE id = ".$couponID);
     }
 
 }
