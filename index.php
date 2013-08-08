@@ -54,7 +54,7 @@ if(!empty($_POST))
                 echo "failed adding coupon to database";
             }
             
-            echo "<h3>Coupon was successfully uploaded!</h3>";
+            echo "<h3>Coupon was successfully uploaded!</h3><br /><a href='http://localhost:10088/Coupons/'>Back to form</a>";
         } 
         else
         {
@@ -92,6 +92,14 @@ else
     <title>Insert Coupons Site</title>
     </head>
     <body>
+    <div class="navbar">
+      <a class="navbar-brand" href="#">Coupons Managment</a>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Insert</a></li>
+        <li><a href="remove.php">Remove</a></li>
+        <li><a href="businessPage.php">Businesses Map</a></li>
+      </ul>
+    </div>
     <div class="container">
     <div class="panel panel-primary">
         <div class="panel-heading">
@@ -113,7 +121,7 @@ else
        </div>
        <br />
        <div class="input-group">
-          <textarea name="description" class="form-control" placeholder="Description"></textarea>
+          <textarea cols="50" name="description" class="form-control" placeholder="Description"></textarea>
        </div>
         <label for="coupon_image_upload">Coupon Image:</label><br />
         <input type="file" name="coupon_image_upload" value=""><br />

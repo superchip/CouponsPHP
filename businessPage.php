@@ -23,6 +23,12 @@ $name = $businessesArray[0]->getName();
 <html>
 <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <title>Remove coupon page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/signin.css" rel="stylesheet">
     <style type="text/css">
         html { height: 100%;width: 50% }
         body { height: 100%; margin: 0; padding: 0 }
@@ -42,7 +48,7 @@ $name = $businessesArray[0]->getName();
 
             var mapOptions = {
                 center: myLatlng,
-                zoom: 12,
+                zoom: 9,
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             };
             var map = new google.maps.Map(document.getElementById("map-canvas"),
@@ -76,9 +82,27 @@ $name = $businessesArray[0]->getName();
     <title>Businesses</title>
 </head>
 <body>
-Closest Business to you is: <label id="response"></label>
+<div class="navbar">
+    <a class="navbar-brand" href="#">Coupons Managment</a>
+    <ul class="nav navbar-nav">
+        <li><a href="index.php">Insert</a></li>
+        <li><a href="remove.php">Remove</a></li>
+        <li class="active"><a href="businessPage.php">Businesses Map</a></li>
+    </ul>
+</div>
+<div class="container">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">Businesses Map</h3>
+        </div>
+        Closest Business to you is: <label id="response"></label>
+    </div>
+</div>
 <div id="map-canvas"></div>
-
+<!-- JavaScript plugins (requires jQuery) -->
+<script src="http://code.jquery.com/jquery.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>

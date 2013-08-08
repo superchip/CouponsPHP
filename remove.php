@@ -111,6 +111,14 @@ else
     </script>
 </head>
 <body>
+<div class="navbar">
+    <a class="navbar-brand" href="#">Coupons Managment</a>
+    <ul class="nav navbar-nav">
+        <li><a href="index.php">Insert</a></li>
+        <li class="active"><a href="remove.php">Remove</a></li>
+        <li><a href="businessPage.php">Businesses Map</a></li>
+    </ul>
+</div>
 <div class="container">
     <div class="panel panel-primary">
         <div class="panel-heading">
