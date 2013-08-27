@@ -22,8 +22,7 @@ $name = $businessesArray[0]->getName();
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-    <title>Remove coupon page</title>
+    <title>Businesses Map</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
@@ -46,6 +45,7 @@ $name = $businessesArray[0]->getName();
 
             var myLatlng = new google.maps.LatLng(<?php echo $latitude.",".$longtitude; ?>);
 
+            var mapOptions = {
             var mapOptions = {
                 center: myLatlng,
                 zoom: 9,

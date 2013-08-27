@@ -10,6 +10,7 @@ include_once 'Entities.php';
 include_once 'DBHandle.php';
 
 use Entities\Business;
+use Entities\Coupon;
 
 class LocationData
 {
@@ -61,6 +62,29 @@ class LocationData
                 sqrt(pow($businessInfo->getLatitude() - LocationData::$userLatitude,2) + pow($businessInfo->getLongtitude() - LocationData::$userLongtitude,2));
 
 
+
+            if($distance < $minDistance)
+            {
+                $minDistance = $distance;
+                $nearestBusiness = $businessInfo;
+            }
+        }
+
+        return $nearestBusiness;
+    }
+
+    public function getNearestCoupons()
+    {
+        $couponsArray = CouponsDAO::getInstance()->getCoupons();
+
+        $minDistance = 1000000;
+
+        foreach($couponsArray as $couponInfo)
+        {
+            $businessInfo = CouponsDAO::getInstance()->getBusinessInfo($couponInfo->getBusinessID());
+
+            $distance =
+                sqrt(pow($businessInfo->getLatitude() - LocationData::$userLatitude,2) + pow($businessInfo->getLongtitude() - LocationData::$userLongtitude,2));
 
             if($distance < $minDistance)
             {

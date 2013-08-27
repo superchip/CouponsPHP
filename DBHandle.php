@@ -98,6 +98,20 @@ class CouponsDAO implements ICouponsDAO
         return $couponsArray;
     }
 
+    function getCouponsByCategory($categoryID)
+    {
+        $result = $this->connection->query("SELECT id,name,category_id,business_id,description,imagefilename FROM coupons WHERE category_id = {$categoryID}");
+        $couponsArray = array();
+        while(list($id,$name,$category_id,$business_id,$description,$imagefilename) = $result->fetch_row())
+        {
+            array_push($couponsArray,new Coupon($category_id, $business_id, $name, $imagefilename,$id,$description));
+        }
+
+        return $couponsArray;
+    }
+
+
+
     function getBusinessCoupons($businessID)
     {
         $result = $this->connection->query("SELECT id,name,category_id,business_id,description,imagefilename FROM coupons where business_id = {$businessID}");

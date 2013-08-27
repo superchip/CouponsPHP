@@ -4,16 +4,18 @@
     <list default="true" id="3f6fede2-ae51-48c6-8d92-f701aa15049c" name="Default" comment="" />
     <ignored path="Coupons.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/DBHandle.php" changelist="3f6fede2-ae51-48c6-8d92-f701aa15049c" time="1375905788220" ignored="false" />
+    <file path="/DBHandle.php" changelist="3f6fede2-ae51-48c6-8d92-f701aa15049c" time="1377604978520" ignored="false" />
     <file path="/Entities.php" changelist="3f6fede2-ae51-48c6-8d92-f701aa15049c" time="1375812422004" ignored="false" />
-    <file path="/businessPage.php" changelist="3f6fede2-ae51-48c6-8d92-f701aa15049c" time="1375943582843" ignored="false" />
+    <file path="/businessPage.php" changelist="3f6fede2-ae51-48c6-8d92-f701aa15049c" time="1375948304206" ignored="false" />
     <file path="/index.php" changelist="3f6fede2-ae51-48c6-8d92-f701aa15049c" time="1375941802331" ignored="false" />
     <file path="/location.php" changelist="3f6fede2-ae51-48c6-8d92-f701aa15049c" time="1375868334792" ignored="false" />
     <file path="/location.js" changelist="3f6fede2-ae51-48c6-8d92-f701aa15049c" time="1375868532650" ignored="false" />
     <file path="/location.html" changelist="3f6fede2-ae51-48c6-8d92-f701aa15049c" time="1375868683395" ignored="false" />
-    <file path="/distance.php" changelist="3f6fede2-ae51-48c6-8d92-f701aa15049c" time="1375895338521" ignored="false" />
+    <file path="/distance.php" changelist="3f6fede2-ae51-48c6-8d92-f701aa15049c" time="1377608794410" ignored="false" />
     <file path="/service.php" changelist="3f6fede2-ae51-48c6-8d92-f701aa15049c" time="1375884841363" ignored="false" />
     <file path="/remove.php" changelist="3f6fede2-ae51-48c6-8d92-f701aa15049c" time="1375943403156" ignored="false" />
+    <file path="/mobile.php" changelist="3f6fede2-ae51-48c6-8d92-f701aa15049c" time="1377607162405" ignored="false" />
+    <file path="/mobile_coupons.php" changelist="3f6fede2-ae51-48c6-8d92-f701aa15049c" time="1377611332968" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,64 +38,26 @@
       <file leaf-file-name="DBHandle.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DBHandle.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="161" column="5" selection-start="5312" selection-end="5312" vertical-scroll-proportion="-4.68">
+            <state line="150" column="34" selection-start="4868" selection-end="4869" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config">
+      <file leaf-file-name="mobile_coupons.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mobile_coupons.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="27" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+            <state line="11" column="60" selection-start="297" selection-end="297" vertical-scroll-proportion="0.31015038">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view.php">
+      <file leaf-file-name="businessPage.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/businessPage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="35" column="0" selection-start="930" selection-end="1066" vertical-scroll-proportion="-6.9">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Entities.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Entities.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="35" selection-start="1808" selection-end="1808" vertical-scroll-proportion="9.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="0" selection-start="2944" selection-end="3253" vertical-scroll-proportion="-6.375">
-              <folding>
-                <marker date="1375943229000" expanded="true" signature="2577:2609" placeholder="..." />
-                <marker date="1375943229000" expanded="true" signature="2577:2610" placeholder="..." />
-                <marker date="1375943229000" expanded="true" signature="2577:4771" placeholder="..." />
-                <marker date="1375943229000" expanded="true" signature="2577:3769" placeholder="..." />
-                <marker date="1375943229000" expanded="true" signature="2588:2609" placeholder="..." />
-                <marker date="1375943229000" expanded="true" signature="2942:4759" placeholder="..." />
-                <marker date="1375943229000" expanded="true" signature="2942:4759" placeholder="..." />
-                <marker date="1375943229000" expanded="true" signature="2942:4759" placeholder="..." />
-                <marker date="1375943229000" expanded="true" signature="2942:4759" placeholder="..." />
-                <marker date="1375943229000" expanded="true" signature="2942:3769" placeholder="..." />
-                <marker date="1375943229000" expanded="true" signature="2942:3268" placeholder="..." />
-                <marker date="1375943229000" expanded="true" signature="3280:4495" placeholder="..." />
-                <marker date="1375943229000" expanded="true" signature="3280:4495" placeholder="..." />
-                <marker date="1375943229000" expanded="true" signature="3280:4495" placeholder="..." />
-                <marker date="1375943229000" expanded="true" signature="3280:4495" placeholder="..." />
-                <marker date="1375943229000" expanded="true" signature="3280:3769" placeholder="..." />
-                <marker date="1375943229000" expanded="true" signature="3518:4473" placeholder="..." />
-                <marker date="1375943229000" expanded="true" signature="3518:3769" placeholder="..." />
-                <marker date="1375943229000" expanded="true" signature="3769:3813" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -107,45 +71,29 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Entities.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Entities.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="129" column="37" selection-start="2857" selection-end="2870" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="31" selection-start="1679" selection-end="1679" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="distance.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/distance.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="31" selection-start="1092" selection-end="1092" vertical-scroll-proportion="-7.5">
-              <folding>
-                <element signature="e#6#80#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="location.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/location.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="225" vertical-scroll-proportion="-0.0">
+            <state line="86" column="160" selection-start="2064" selection-end="2064" vertical-scroll-proportion="-50.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="businessPage.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/businessPage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="866" selection-end="906" vertical-scroll-proportion="0.5188679">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="remove.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/remove.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="0" selection-start="3306" selection-end="3329" vertical-scroll-proportion="-8.333333">
-              <folding>
-                <element signature="e#140#160#0" expanded="true" />
-                <marker date="1375943404000" expanded="true" signature="1081:1148" placeholder="..." />
-                <marker date="1375943404000" expanded="true" signature="1088:1148" placeholder="..." />
-                <marker date="1375943404000" expanded="true" signature="1432:1769" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -167,11 +115,13 @@
         <option value="$PROJECT_DIR$/location.html" />
         <option value="$PROJECT_DIR$/location.js" />
         <option value="$PROJECT_DIR$/service.php" />
-        <option value="$PROJECT_DIR$/distance.php" />
-        <option value="$PROJECT_DIR$/DBHandle.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/remove.php" />
+        <option value="$PROJECT_DIR$/DBHandle.php" />
+        <option value="$PROJECT_DIR$/mobile.php" />
+        <option value="$PROJECT_DIR$/distance.php" />
         <option value="$PROJECT_DIR$/businessPage.php" />
+        <option value="$PROJECT_DIR$/mobile_coupons.php" />
       </list>
     </option>
   </component>
@@ -236,24 +186,10 @@
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
-  <component name="RunManager" selected="PHP Script.remove.php">
+  <component name="RunManager" selected="PHP Script.mobile.php">
     <configuration default="false" name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="service.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/service.php">
-      <RunnerSettings RunnerId="PhpRunner" />
-      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="PhpRunner" />
-      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="businessPage.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/businessPage.php">
-      <RunnerSettings RunnerId="PhpRunner" />
-      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="PhpRunner" />
-      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
       <method />
     </configuration>
     <configuration default="false" name="distance.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/distance.php">
@@ -270,6 +206,18 @@
       <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="mobile.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/mobile.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mobile_coupons.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/mobile_coupons.php">
+      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
@@ -279,25 +227,25 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="PHP Script.index.php" />
-      <item index="1" class="java.lang.String" itemvalue="PHP Script.service.php" />
-      <item index="2" class="java.lang.String" itemvalue="PHP Script.businessPage.php" />
-      <item index="3" class="java.lang.String" itemvalue="PHP Script.distance.php" />
-      <item index="4" class="java.lang.String" itemvalue="PHP Script.remove.php" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Script.distance.php" />
+      <item index="2" class="java.lang.String" itemvalue="PHP Script.remove.php" />
+      <item index="3" class="java.lang.String" itemvalue="PHP Script.mobile.php" />
+      <item index="4" class="java.lang.String" itemvalue="PHP Script.mobile_coupons.php" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="PHP Script.remove.php" />
-        <item index="1" class="java.lang.String" itemvalue="PHP Script.distance.php" />
-        <item index="2" class="java.lang.String" itemvalue="PHP Script.businessPage.php" />
-        <item index="3" class="java.lang.String" itemvalue="PHP Script.service.php" />
-        <item index="4" class="java.lang.String" itemvalue="PHP Script.index.php" />
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.mobile.php" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.mobile_coupons.php" />
+        <item index="2" class="java.lang.String" itemvalue="PHP Script.index.php" />
+        <item index="3" class="java.lang.String" itemvalue="PHP Script.remove.php" />
+        <item index="4" class="java.lang.String" itemvalue="PHP Script.distance.php" />
       </list>
     </recent_temporary>
   </component>
@@ -355,11 +303,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931036" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16126418" sideWeight="0.6729452" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2791096" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16855754" sideWeight="0.7224138" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27758622" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3270548" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32586208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -432,24 +380,10 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="13" />
+      <option name="time" value="19" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBHandle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="10" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="27" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
@@ -459,9 +393,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -478,21 +410,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="59" selection-start="526" selection-end="567" vertical-scroll-proportion="-0.99421966">
-          <folding />
-        </state>
+        <state line="21" column="59" selection-start="526" selection-end="567" vertical-scroll-proportion="-0.99421966" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/location.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="225" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remove.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="185" selection-end="209" vertical-scroll-proportion="-4.375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="23" selection-start="1429" selection-end="1429" vertical-scroll-proportion="-31.875" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Entities.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="37" selection-start="2857" selection-end="2870" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBHandle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="150" column="34" selection-start="4868" selection-end="4869" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="31" selection-start="1679" selection-end="1679" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -506,69 +465,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/distance.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="31" selection-start="1092" selection-end="1092" vertical-scroll-proportion="-7.5">
-          <folding>
-            <element signature="e#6#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBHandle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="5" selection-start="5312" selection-end="5312" vertical-scroll-proportion="-4.68">
+        <state line="86" column="160" selection-start="2064" selection-end="2064" vertical-scroll-proportion="-50.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Entities.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="35" selection-start="1808" selection-end="1808" vertical-scroll-proportion="9.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="0" selection-start="2944" selection-end="3253" vertical-scroll-proportion="-6.375">
-          <folding>
-            <marker date="1375943229000" expanded="true" signature="2577:2609" placeholder="..." />
-            <marker date="1375943229000" expanded="true" signature="2577:2610" placeholder="..." />
-            <marker date="1375943229000" expanded="true" signature="2577:4771" placeholder="..." />
-            <marker date="1375943229000" expanded="true" signature="2577:3769" placeholder="..." />
-            <marker date="1375943229000" expanded="true" signature="2588:2609" placeholder="..." />
-            <marker date="1375943229000" expanded="true" signature="2942:4759" placeholder="..." />
-            <marker date="1375943229000" expanded="true" signature="2942:4759" placeholder="..." />
-            <marker date="1375943229000" expanded="true" signature="2942:4759" placeholder="..." />
-            <marker date="1375943229000" expanded="true" signature="2942:4759" placeholder="..." />
-            <marker date="1375943229000" expanded="true" signature="2942:3769" placeholder="..." />
-            <marker date="1375943229000" expanded="true" signature="2942:3268" placeholder="..." />
-            <marker date="1375943229000" expanded="true" signature="3280:4495" placeholder="..." />
-            <marker date="1375943229000" expanded="true" signature="3280:4495" placeholder="..." />
-            <marker date="1375943229000" expanded="true" signature="3280:4495" placeholder="..." />
-            <marker date="1375943229000" expanded="true" signature="3280:4495" placeholder="..." />
-            <marker date="1375943229000" expanded="true" signature="3280:3769" placeholder="..." />
-            <marker date="1375943229000" expanded="true" signature="3518:4473" placeholder="..." />
-            <marker date="1375943229000" expanded="true" signature="3518:3769" placeholder="..." />
-            <marker date="1375943229000" expanded="true" signature="3769:3813" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/remove.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="0" selection-start="3306" selection-end="3329" vertical-scroll-proportion="-8.333333">
-          <folding>
-            <element signature="e#140#160#0" expanded="true" />
-            <marker date="1375943404000" expanded="true" signature="1081:1148" placeholder="..." />
-            <marker date="1375943404000" expanded="true" signature="1088:1148" placeholder="..." />
-            <marker date="1375943404000" expanded="true" signature="1432:1769" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/businessPage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="866" selection-end="906" vertical-scroll-proportion="0.5188679">
+        <state line="35" column="0" selection-start="930" selection-end="1066" vertical-scroll-proportion="-6.9">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_coupons.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="60" selection-start="297" selection-end="297" vertical-scroll-proportion="0.31015038">
           <folding />
         </state>
       </provider>
